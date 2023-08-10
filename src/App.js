@@ -8,11 +8,8 @@ function App() {
     <div className="App">
       {/* <Hello/>
       <Message></Message> */}
-      <Profile name = "Hoai" lastname = "Thuong">
-        <h1>is the most beautifull</h1>
-      </Profile>
+      <Message height = "1m54"/>
 
-      
     </div>
   );
 }
