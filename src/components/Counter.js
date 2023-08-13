@@ -1,5 +1,5 @@
-import { Component } from "react"
-import { useState } from "react";
+import { Component } from 'react'
+import { useState } from 'react'
 
 // class Counter extends Component { 
 //     constructor() { 
@@ -33,8 +33,8 @@ function Counter() {
     }
     return (
         <div>
-        <h1>{counter}</h1>
-        <button onClick = {handleIncrement} >Increment</button>
+            <h1>{counter}</h1>
+            <button onClick = {handleIncrement} >Increment</button>
         </div>
     )
 }
